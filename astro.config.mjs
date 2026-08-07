@@ -22,6 +22,7 @@ const prettyCodeOptions = {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://juampa1907.github.io',
+  base: '/starfolio',
   output: 'server',
 
   adapter: cloudflare(),
