@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import cloudflare from '@astrojs/cloudflare';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import mdx from '@astrojs/mdx';
@@ -22,15 +21,11 @@ const prettyCodeOptions = {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://juampa1907.github.io',
-  base: '/starfolio',
-  output: 'server',
-
-  adapter: cloudflare(),
-
+  // sin base: al ser user page (juampa1907.github.io), el sitio vive en la raíz
+  // sin output: 'server', sin adapter: cloudflare() -> default es estático
   vite: {
     plugins: [tailwindcss()],
   },
-
   integrations: [
     react(),
     mdx({
@@ -40,7 +35,6 @@ export default defineConfig({
     }),
     sitemap(),
   ],
-
   markdown: {
     syntaxHighlight: false,
     remarkPlugins: [remarkGfm, remarkCodeMeta],
