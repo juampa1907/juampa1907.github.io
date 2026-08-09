@@ -12,7 +12,7 @@ import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Astro } from "@/components/ui/svgs/astro";
 
 export const DATA = {
-  name: "Alex Mercer - Software Engineer",
+  name: "Juan Pablo Gomez - Bases De Datos",
   initials: "AM",
   url: "https://alexmercer.dev",
   location: "Austin, TX",
