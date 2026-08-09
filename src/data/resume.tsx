@@ -18,9 +18,9 @@ export const DATA = {
   location: "Austin, TX",
   locationLink: "https://www.google.com/maps/place/austin+tx",
   description:
-    "Full-stack engineer turned indie founder. I love building developer tools, fast UIs, and products people actually use.",
+    "Estudiante de Ingenieria de Sistemas de cuarto semestre en la universidad el Bosque",
   summary:
-    "In early 2023, I left a senior engineering role to go all-in on building my own SaaS products. Before that, [I completed a double degree in computer science and business](/#education), [interned at companies like Stripe and Cloudflare](/#work), and [competed in 18+ hackathons](/#hackathons). I also spent a summer in San Francisco as part of a founder residency focused on shipping fast and finding early customers.",
+    "Bases de datos me va a ayudar en la vida profesional para guardar, organizar, consultar y modificar información de manera eficiente y segura. Todo este conocimiento me hará un profesional más completo y funcional para las empresas",
   avatarUrl: "/picofme.png",
   ogImage: "/og_image.png",
   sections: {
@@ -30,12 +30,6 @@ export const DATA = {
       label: "My Projects",
       heading: "Check out my latest work",
       text: "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
-    },
-    contact: {
-      order: 8, enabled: true,
-      label: "Contact",
-      heading: "Get in Touch",
-      text: "Want to chat? Just shoot me a dm with a direct question on twitter and I'll respond whenever I can. I will ignore all soliciting.",
     },
   },
   photos: [
@@ -54,36 +48,24 @@ export const DATA = {
     { href: "/blog", icon: Library, label: "Blog" },
   ],
   contact: {
-    email: "alex@alexmercer.dev",
-    tel: "+1 512 000 0000",
+    email: "juampasemi19@gmail.com",
+    tel: "+57 305 8279757",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com",
+        url: "https://github.com/juampa1907",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com",
+        url: "https://www.linkedin.com/in/jpgomezcasseres/",
         icon: Icons.linkedin,
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://x.com",
-        icon: Icons.x,
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://youtube.com",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:alex@alexmercer.dev",
+        url: "mailto:juampasemi19@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
