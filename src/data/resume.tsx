@@ -22,7 +22,7 @@ export const DATA = {
   summary:
     "Bases de datos me va a ayudar en la vida profesional para guardar, organizar, consultar y modificar información de manera eficiente y segura. Todo este conocimiento me hará un profesional más completo y funcional para las empresas",
   avatarUrl: "/picofme.png",
-  ogImage: "/og_image.png",
+  ogImage: "/Foto_Hoja_De_Vida.jpg",
   sections: {
     about: { order: 1, enabled: true, heading: "¿Por qué creo que Bases de Datos 1 me va a ayudar en mi vida profesional?" },
     projects: {
