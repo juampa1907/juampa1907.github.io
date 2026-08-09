@@ -13,7 +13,7 @@ import { Astro } from "@/components/ui/svgs/astro";
 
 export const DATA = {
   name: "Juan Pablo Gomez - Bases De Datos",
-  initials: "AM",
+  initials: "",
   url: "https://alexmercer.dev",
   location: "Austin, TX",
   locationLink: "https://www.google.com/maps/place/austin+tx",
