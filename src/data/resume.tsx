@@ -21,8 +21,8 @@ export const DATA = {
     "Estudiante de Ingenieria de Sistemas de cuarto semestre en la universidad el Bosque",
   summary:
     "Bases de datos me va a ayudar en la vida profesional para guardar, organizar, consultar y modificar información de manera eficiente y segura. Todo este conocimiento me hará un profesional más completo y funcional para las empresas",
-  avatarUrl: "/picofme.png",
-  ogImage: "/Foto_Hoja_De_Vida.jpg",
+  avatarUrl: "/Foto_Hoja_De_Vida.jpg",
+  ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "¿Por qué creo que Bases de Datos 1 me va a ayudar en mi vida profesional?" },
     projects: {
