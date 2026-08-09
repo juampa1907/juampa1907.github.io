@@ -24,12 +24,12 @@ export const DATA = {
   avatarUrl: "/picofme.png",
   ogImage: "/og_image.png",
   sections: {
-    about: { order: 1, enabled: true, heading: "About" },
+    about: { order: 1, enabled: true, heading: "¿Por qué creo que Bases de Datos 1 me va a ayudar en mi vida profesional?" },
     projects: {
       order: 2, enabled: true,
-      label: "My Projects",
-      heading: "Check out my latest work",
-      text: "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
+      label: "Evidencia",
+      heading: "Revisa mis trabajos del semestre",
+      text: "Aquí estarán todos los trabajos que estaré realizando a lo largo del curso Bases de Datos 1",
     },
   },
   photos: [
@@ -45,7 +45,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
-    { href: "/blog", icon: Library, label: "Blog" },
   ],
   contact: {
     email: "juampasemi19@gmail.com",
