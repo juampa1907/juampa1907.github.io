@@ -10,7 +10,7 @@ import ProjectsSection from "@/components/section/projects-section";
 
 const BLUR_FADE_DELAY = 0.04;
 
-const PRESENTATION_VIDEO_URL = "https://youtu.be/WDeIVyeLQGs";
+const PRESENTATION_VIDEO_URL = "https://www.youtube.com/embed/WDeIVyeLQGs";
 
 const sectionComponents: Record<string, React.ReactNode> = {
   about: (
