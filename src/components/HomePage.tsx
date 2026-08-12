@@ -10,6 +10,8 @@ import ProjectsSection from "@/components/section/projects-section";
 
 const BLUR_FADE_DELAY = 0.04;
 
+const PRESENTATION_VIDEO_URL = "https://youtu.be/WDeIVyeLQGs";
+
 const sectionComponents: Record<string, React.ReactNode> = {
   about: (
     <section id="about">
@@ -75,6 +77,19 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <section id="presentation-video">
+        <div className="mx-auto w-full max-w-2xl">
+          <BlurFade delay={BLUR_FADE_DELAY * 8}>
+            <video
+              src={PRESENTATION_VIDEO_URL}
+              controls
+              className="w-full rounded-2xl border shadow-lg"
+            />
+          </BlurFade>
+        </div>
+      </section>
+
       {orderedSections.map((key) => (
         <React.Fragment key={key}>
           {sectionComponents[key]}
