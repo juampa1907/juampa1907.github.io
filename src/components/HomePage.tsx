@@ -81,11 +81,15 @@ export default function HomePage() {
       <section id="presentation-video">
         <div className="mx-auto w-full max-w-2xl">
           <BlurFade delay={BLUR_FADE_DELAY * 8}>
-            <video
-              src={PRESENTATION_VIDEO_URL}
-              controls
-              className="w-full rounded-2xl border shadow-lg"
-            />
+            <div className="relative w-full overflow-hidden rounded-2xl border shadow-lg aspect-video">
+              <iframe
+                src={PRESENTATION_VIDEO_URL}
+                title="Video de presentación"
+                className="absolute inset-0 w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </BlurFade>
         </div>
       </section>
