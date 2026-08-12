@@ -67,7 +67,7 @@ export default function HomePage() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
-              <Avatar className="w-20 h-32 border rounded-2xl shadow-lg ring-4 ring-muted">
+              <Avatar className="w-32 h-32 border rounded-2xl shadow-lg ring-4 ring-muted">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
